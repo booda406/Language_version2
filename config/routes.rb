@@ -1,4 +1,9 @@
 LanguageVersion2::Application.routes.draw do
+
+
+  get "demos" => "application#template_02_volumes"
+
+  root to: "application#template_02_volumes"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,14 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LanguageVersion2</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>語言學版型</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="wrapper">
+<header class="title-area row" style="border-bottom: 1px solid rgba(100, 100, 100, 1);">
+  <h3 class="large-12 columns"><a href="#" title="">台灣語言學期刊</a></h3><h3 class="large-12 columns"><a>Taiwan Journal of Linguistics, TJL</a></h3>
+</header><!-- /header -->
+  <nav class="top-bar row" data-topbar>
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            <!-- 台灣語言學期刊 -->
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+    </ul>
+ 
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider"></li>
+        <li><a href="template_02_volumes.html">Volumes</a></li>
 
-<%= yield %>
+        <li class="divider"></li>
+        <li class="has-dropdown">
+        <a href="template_02_publication.html">Publication</a>
+          <ul class="dropdown">
+            <li><a href="template_02_publication_monograph_title.html">Monograph</a></li>
+            <li><a href="template_02_publication_books_article.html">Book series</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a>Taiwan Journal of Linguistics</a>
+          <ul class="dropdown">
+            <li><a href="template_02_history.html">History</a></li>
+            <li><a href="template_02_certificate.html">Certificate</a></li>
+            <li><a href="template_02_editors.html">Editors</a></li>
+            <li><a href="template_02_contributors.html">Contributors</a></li>
+            <li><a href="template_02_policy.html">Editorial Policy</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="template_02_subscription.html">Subscription</a></li>
+        <li class="divider"></li>
+      </ul>
+    </section>
+  </nav>
+ 
+  <!-- End Top Bar -->
+ 
 
+
+
+
+
+  <%= yield %>
+  
+
+
+
+
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-12 columns">
+          <ul class="inline-list right">
+            <li><a href="template_02_volumes.html">Volumes</a></li>
+            <li><a href="template_02_history.html">History</a></li>
+            <li><a href="template_02_certificate.html">Certificate</a></li>
+            <li><a href="template_02_editors.html">Editors</a></li>
+            <li><a href="template_02_contributors.html">Contributors</a></li>
+            <li><a href="template_02_publication.html">Publication</a></li>
+            <li><a href="template_02_subscription.html">Subscription</a></li>
+            <li><a href="template_02_policy.html">Editorial Policy</a></li>
+          </ul>
+        </div>
+        <div class="large-12 columns">
+          <p class="right">© Copyright 台灣語言學期刊</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <!-- End Footer -->
+ 
+ 
+ 
+  <!-- Map Modal -->
+ 
+  <div class="reveal-modal" id="mapModal">
+    <h4>Where We Are</h4>
+    <p><img src="http://placehold.it/800x600" /></p>
+ 
+    <!-- Any anchor with this class will close the modal. This also inherits certain styles, which can be overriden. -->
+    <a href="#" class="close-reveal-modal">×</a>
+  </div>
+
+
+<!-- js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 </body>
 </html>

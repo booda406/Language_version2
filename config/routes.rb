@@ -1,7 +1,14 @@
 LanguageVersion2::Application.routes.draw do
 
 
-  get "demos" => "application#template_02_volumes"
+  get "volumes" => "application#template_02_volumes"
+  get "certificate" => "application#template_02_certificate"
+  get "contributors" => "application#template_02_contributors"
+  get "editors" => "application#template_02_certificate"
+  get "history" => "application#template_02_certificate"
+  get "policy" => "application#template_02_certificate"
+  get "publication" => "application#template_02_certificate"
+  get "subscription" => "application#template_02_certificate"
 
   root to: "application#template_02_volumes"
   # The priority is based upon order of creation: first created -> highest priority.

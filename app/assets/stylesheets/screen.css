@@ -5966,3 +5966,6 @@ body {
   background-color: #fdfdfd;
   max-width: 960px;
   margin: 0 auto; }
+
+header h3 {
+  text-align: center; }

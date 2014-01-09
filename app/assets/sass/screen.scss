@@ -5432,3 +5432,81 @@ header{
     text-align: center;
   }
 }
+
+footer{
+  a{
+    color: black;
+    font-size: 0.95rem;
+  }
+}
+
+
+// volumes
+
+.volumes{
+  ol{
+    li{
+      a{
+        h5{
+        &:hover{
+        color: rgba(155, 155,155, 1);
+          }
+
+        &:active{
+        color: rgba(155, 155,255, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+.article-download{
+  li{
+    a{
+      color: white;
+    }
+  }
+}
+
+
+// monograph
+
+.monograph, .books{
+  ol{
+    li{
+      a{
+        h5{
+        &:hover{
+        color: rgba(155, 155,155, 1);
+          }
+
+        &:active{
+        color: rgba(155, 155,255, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+// publication
+.publication{
+      a{
+        h5{
+        &:hover{
+        color: rgba(155, 155,155, 1);
+          }
+
+        &:active{
+        color: rgba(155, 155,255, 1);
+          }
+        }
+      }
+    }

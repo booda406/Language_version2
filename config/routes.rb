@@ -2,12 +2,19 @@ LanguageVersion2::Application.routes.draw do
 
 
   get "volumes" => "application#template_02_volumes"
+  get "volumes_title" => "application#template_02_volumes_title"
+  get "volumes_article" => "application#template_02_volumes_article"
+  get "volumes" => "application#template_02_volumes"
   get "certificate" => "application#template_02_certificate"
   get "contributors" => "application#template_02_contributors"
   get "editors" => "application#template_02_editors"
   get "history" => "application#template_02_history"
   get "policy" => "application#template_02_policy"
   get "publication" => "application#template_02_publication"
+  get "publication_books_title" => "application#template_02_publication_books_title"
+  get "publication_books_article" => "application#template_02_publication_books_article"
+  get "publication_monograph_title" => "application#template_02_publication_monograph_title"
+  get "publication_monograph_article" => "application#template_02_publication_monograph_article"
   get "subscription" => "application#template_02_subscription"
 
   root to: "application#template_02_volumes"

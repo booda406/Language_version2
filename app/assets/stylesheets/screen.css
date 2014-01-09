@@ -5969,3 +5969,25 @@ body {
 
 header h3 {
   text-align: center; }
+
+footer a {
+  color: black;
+  font-size: 0.95rem; }
+
+.volumes ol li a h5:hover {
+  color: #9b9b9b; }
+.volumes ol li a h5:active {
+  color: #9b9bff; }
+
+.article-download li a {
+  color: white; }
+
+.monograph ol li a h5:hover, .books ol li a h5:hover {
+  color: #9b9b9b; }
+.monograph ol li a h5:active, .books ol li a h5:active {
+  color: #9b9bff; }
+
+.publication a h5:hover {
+  color: #9b9b9b; }
+.publication a h5:active {
+  color: #9b9bff; }

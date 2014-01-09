@@ -5965,10 +5965,17 @@ body {
 .wrapper {
   background-color: #fdfdfd;
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-shadow: 2px 2px 12px rgba(21, 21, 21, 0.6); }
 
-header h3 {
-  text-align: center; }
+header {
+  background-image: url("sky.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  header h1 {
+    text-align: center;
+    font-weight: 700; }
 
 footer a {
   color: black;
